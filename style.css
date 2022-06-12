@@ -477,6 +477,10 @@ h6 {
         width: 100%;
         user-zoom: none;
     }
+    .carteles{
+        width: 90%;
+
+}
 }
     @media screen and (max-width: 503px) {
         html{
