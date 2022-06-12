@@ -477,16 +477,16 @@ h6 {
         width: 100%;
         user-zoom: none;
     }
+}
     @media screen and (max-width: 503px) {
         html{
-            width: 90vmax;
+            width: 90%;
             min-width: 100%;
             font-size: 20px;
             }
         body{
             width: 100%;
             width: 105vmax;
-            user-zoom: none;
         }
         .carteles{
             width: 90%;
