@@ -82,9 +82,8 @@ header{
 
 }
 .sectionAgradecimiento{
-    background-color: white;
-    padding-bottom: 40px;
-    margin: 10px 60px;
+    padding-bottom: 10px;
+
     border-radius: 5px;
     border: #00ffb3 solid 3px;
 }
