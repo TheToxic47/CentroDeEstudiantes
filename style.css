@@ -1,0 +1,472 @@
+@font-face {
+    font-family: raleway;
+    src: url(fonts/raleway.woff2) format('woff2');
+    font-style: normal;
+}
+@font-face{
+    font-family: corinthia;
+    src: url(fonts/corinthia.woff2) format('woff2')
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    color: black;
+    background-color: #000000;
+
+}
+header{
+    background-image:url(img/header1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:0;
+    padding-bottom: 200px;
+    font-family: raleway;
+    user-select: none;
+}
+
+.bordeup{
+    font-family: 'Corinthia', cursive;
+    padding-top: 80px;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+}
+.bordeleft{
+    padding-left: 100px;
+}
+
+.parrafogrande{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fondo1{
+    background-image: url(img/faro1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.fondo3{
+    background-image: url(img/fondo3.png);
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.fondo2{
+    background-image: url(img/redes1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.bordes{
+    border: #f03a3a solid 3px;
+}
+.texto1{
+    width: 50%;
+    margin: 150px;
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    flex-direction: column;
+}
+.card{
+    border: #ffffff solid;
+
+}
+.sectionAgradecimiento{
+    background-color: white;
+    padding-bottom: 40px;
+    margin: 10px 60px;
+    border-radius: 5px;
+    border: #00ffb3 solid 3px;
+}
+
+h2{
+    justify-content: center;
+    text-align: center;
+    font-family: raleway;
+    font-size: 35px;
+    padding-top: 25px;
+}
+
+
+.carousel{
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    min-width: 500px;
+}
+
+.carousel-inner{
+    padding-bottom: 100px;
+    padding-top: 50px; 
+    width: 450px;
+    height: 450px;
+    user-select: none;
+}
+
+.carousel-item img{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    user-select: none;
+}
+
+.offcanvas{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+hr{
+    color: white;
+}
+.offcanvasNavbarDropdown{
+    color: rgb(36, 36, 36);
+}
+
+.conocimientos {
+    border: 10px solid black;
+    animation-name: ColorDelBorde;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+}
+
+/*Organos*/
+h6 {
+
+   padding: 10px;
+
+
+}
+.centrar{
+    justify-content: center;
+    text-align: center;
+}
+.bottoms{
+    padding-bottom: 15px;
+}
+/*Organo Ejecutivo*/
+
+
+/*animacion letras*/
+.letra1{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra2{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra3{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra4{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra5{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra6{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra7{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra8{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+.letra9{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    animation: gotass 1.8s linear infinite;
+}
+.letra10{
+    width: 10%;
+    height: 10%;
+    font-size: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    animation: gotass 1.8s linear infinite;
+    animation-delay: .4s;
+}
+/*fin letras*/
+
+/*posicionamiento navgar*/
+.navbar-dark{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.nav-link:hover {
+    background-color: #555353;
+}
+.nav-link:active{
+    background-color: #161515;
+}
+
+/* animacion gotas*/
+@keyframes gotass{
+    100%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: .4;
+    }
+    0%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+
+/*transicion de colores del borde*/
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ColorDelBorde {
+    0%{
+        border: 3px solid #f03a3a;
+    }
+    25% {
+        border: 3px solid #f14c4c;
+    }
+    50% {
+        border: 3px solid #f1a8b8;
+    }
+    75% {
+        border: 3px solid #f14c4c;
+    }
+    100% {
+        border: 3px solid #f03a3a;
+    }
+}
+
+/*Redes Sociales*/
+.redestitutlo{
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #e6e6e6;
+    font-family: corinthia;
+    font-size: 40px;
+}
+.redes{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.redes ul li{
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes ul li a{
+    display: block;
+    padding: 0 10px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px;
+    transition: .2s;
+    background-color: rgb(255, 255, 255);
+    border-collapse: 20px;
+    color: black;
+}
+.redes ul li .fcbk{
+    animation-name: fcbk;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;;
+}
+.redes ul li .dscd{
+    animation-name: dscd1;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;;
+}
+.redes ul li .wsp{
+    animation-name: wsp;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;;
+}
+.redes ul li .stm{
+    animation-name: stm;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;;
+}
+
+.redes ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px;
+    filter: contrast(2);
+    background-color: rgb(136, 134, 134);
+}
+
+@keyframes fcbk{
+    0%{
+        border: 3px solid #eb0d0d;
+    }
+    50% {
+        border: 3px solid #ec15ac;
+    }
+    100% {
+        border: 3px solid #e40b0b;
+    }
+}
+@keyframes wsp{
+    0%{
+        border: 3px solid #696969;
+    }
+    50% {
+        border: 3px solid #47f7ad;
+    }
+    100% {
+        border: 3px solid #696969;
+    }
+}
+@keyframes dscd1{
+    0%{
+        border: 3px solid #696969;
+    }
+    50% {
+        border: 3px solid #6607ff;
+    }
+    100% {
+        border: 3px solid #696969;
+    }
+}
+@keyframes stm{
+    0%{
+        border: 3px solid #696969;
+    }
+    50% {
+        border: 3px solid #1b1b1b;
+    }
+    100% {
+        border: 3px solid #696969;
+    }
+}
+
+
+/*responsivo en celular*/
+@media screen and (max-width: 1400px) {
+    html{
+        width: auto;
+    }
+    .navbar-dark{
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: #1b1b1b;
+    }
+    .nav-link{
+        margin-left: 10px;
+    }
+    .nav-link:hover{
+        padding-left: 10px;
+    }
+    .nav-link:active{
+        background-color: #161515;
+    }
+    
+}
