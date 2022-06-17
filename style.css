@@ -96,50 +96,66 @@ h2{
     padding-top: 25px;
 }
 
-
-.carousel{
-    background-color: rgb(0, 0, 0);
-    margin-top: 20px;
-    text-align: center;
-    padding: 20px;
-    min-width: 500px;
-}
-
-.carousel-inner{
-    padding-bottom: 100px;
-    padding-top: 50px; 
-    width: 450px;
-    height: 450px;
-    user-select: none;
-}
-
-.carousel-item img{
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-
-    user-select: none;
-}
-
-.offcanvas{
-    background-color: rgb(36, 36, 36);
-    color: white;
-}
-hr{
-    color: white;
-}
-.offcanvasNavbarDropdown{
-    color: rgb(36, 36, 36);
-}
-
 .conocimientos {
     border: 10px solid black;
     animation-name: ColorDelBorde;
     animation-duration: 3s ;
     animation-iteration-count: infinite;
 }
+.containerhe {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .boxhe {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 2.6;
+  }
+  
+  .boxhe > img {
+    width: 100%;
+    height: calc(100% - 12vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .boxhe > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+  }
+  
+  .boxhe:hover { flex: 1 1 70%;}
+  .boxhe:hover > span { font-size: 200;}
+  .boxhe:hover > img {
+    width: 100%;
+    height: 90%;
+  }
 
+.toxic{
+    background:linear-gradient(0deg, #0f3443, #34e89e );
+    padding: 2% 0%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+
+
+hr{
+    color: white;
+}
+.offcanvasNavbarDropdown{
+    color: rgb(36, 36, 36);
+}
 /*Organos*/
 h6 {
 
@@ -301,8 +317,6 @@ h6 {
         opacity: 0;
     }
 }
-
-
 /*transicion de colores del borde*/
 @keyframes aparecer{
     0%{
@@ -324,19 +338,19 @@ h6 {
 
 @keyframes ColorDelBorde {
     0%{
-        border: 3px solid #f03a3a;
+        border: 3px solid #000000;
     }
     25% {
-        border: 3px solid #f14c4c;
+        border: 3px solid #14e986;
     }
     50% {
-        border: 3px solid #f1a8b8;
+        border: 3px solid #000000;
     }
     75% {
-        border: 3px solid #f14c4c;
+        border: 3px solid #14e986;
     }
     100% {
-        border: 3px solid #f03a3a;
+        border: 3px solid #000000;
     }
 }
 
@@ -400,7 +414,7 @@ h6 {
     filter: contrast(2);
     background-color: rgb(136, 134, 134);
 }
-
+/* Footer */
 @keyframes fcbk{
     0%{
         border: 3px solid #eb0d0d;
