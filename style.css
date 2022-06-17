@@ -50,7 +50,7 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .fondo1{
-    background-image: url(img/faro1.jpg);
+    background:linear-gradient(40deg,#302B63, #0f0c29 );
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -81,12 +81,6 @@ header{
     border: #ffffff solid;
 
 }
-.sectionAgradecimiento{
-    padding-bottom: 10px;
-
-    border-radius: 5px;
-    border: #00ffb3 solid 3px;
-}
 
 h2{
     justify-content: center;
@@ -96,11 +90,19 @@ h2{
     padding-top: 25px;
 }
 
+.toxic{
+    background:linear-gradient(0deg, #0f3443, #34e89e );
+    padding: 1% 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+}
 .conocimientos {
     border: 10px solid black;
     animation-name: ColorDelBorde;
     animation-duration: 3s ;
     animation-iteration-count: infinite;
+    border-radius: 5px;
 }
 .containerhe {
     display: flex;
@@ -114,9 +116,9 @@ h2{
     flex: 1;
     overflow: hidden;
     transition: .5s;
-    margin: 0 2%;
+    margin: 0 1.5%;
     box-shadow: 0 20px 30px rgba(0,0,0,.1);
-    line-height: 2.6;
+    line-height: 0;
   }
   
   .boxhe > img {
@@ -140,16 +142,6 @@ h2{
     width: 100%;
     height: 90%;
   }
-
-.toxic{
-    background:linear-gradient(0deg, #0f3443, #34e89e );
-    padding: 2% 0%;
-    padding-right: 1%;
-    padding-left: 1%;
-}
-
-
-
 hr{
     color: white;
 }
