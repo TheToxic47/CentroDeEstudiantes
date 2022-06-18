@@ -378,7 +378,7 @@ h6 {
     justify-content: center;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     color: #e6e6e6;
     font-family: corinthia;
     font-size: 40px;
@@ -387,7 +387,7 @@ h6 {
     display: flex;
     height: 100%;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 1px;
 }
 .redes ul li{
     display: inline-block;
@@ -421,8 +421,8 @@ h6 {
     animation-duration: 3s ;
     animation-iteration-count: infinite;;
 }
-.redes ul li .stm{
-    animation-name: stm;
+.redes ul li .ig{
+    animation-name: ig;
     animation-duration: 3s ;
     animation-iteration-count: infinite;;
 }
@@ -434,15 +434,15 @@ h6 {
     background-color: rgb(136, 134, 134);
 }
 /* Footer */
-@keyframes fcbk{
+@keyframes ig{
     0%{
-        border: 3px solid #eb0d0d;
+        border: 3px solid #696969;
     }
     50% {
         border: 3px solid #ec15ac;
     }
     100% {
-        border: 3px solid #e40b0b;
+        border: 3px solid #696969;
     }
 }
 @keyframes wsp{
@@ -467,12 +467,12 @@ h6 {
         border: 3px solid #696969;
     }
 }
-@keyframes stm{
+@keyframes fcbk{
     0%{
         border: 3px solid #696969;
     }
     50% {
-        border: 3px solid #1b1b1b;
+        border: 3px solid #1100ff;
     }
     100% {
         border: 3px solid #696969;
@@ -502,8 +502,9 @@ h6 {
     
 }
 @media screen and (max-width: 768px) {
+
     html{
-        width: 1000vh;
+        width: 100vh;
         }
     body{
         width: 100vmax;
