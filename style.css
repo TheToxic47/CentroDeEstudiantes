@@ -11,7 +11,10 @@
     font-family: kdam;
     src: url(fonts/kdam.woff2) format('woff2');
 }
-
+@font-face{
+    font-family: neue;
+    src: url(fonts/neue.woff2) format('woff2');
+}
 *{
     margin: 0;
     padding: 0;
@@ -70,8 +73,9 @@ header{
     background-repeat: no-repeat; 
     background-size: cover;
 }
+
 .act{
-    font-family: corinthia;
+    font-family: neue;
     font-size: 600%;
     background: linear-gradient(
         to right,
