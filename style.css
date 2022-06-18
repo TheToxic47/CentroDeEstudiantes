@@ -30,6 +30,10 @@ body{
     background-color: #000000;
 
 }
+.blur{
+    backdrop-filter: blur(5px);
+
+}
 .titulo12{
     text-shadow: red -2px 0,
                  cyan 2px 0;
@@ -66,10 +70,21 @@ header{
     background-repeat: no-repeat; 
     background-size: cover;
 }
+.act{
+    font-family: corinthia;
+    font-size: 600%;
+    background: linear-gradient(
+        to right,
+        rgb(0, 162, 255),
+        rgb(0, 255, 85)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
 .fondo3{
     background-image: url(img/fondo3.png);
     background-size: cover;
-    padding-bottom: 40px;
 }
 .fondo2{
     background-image: url(img/redes1.png);
