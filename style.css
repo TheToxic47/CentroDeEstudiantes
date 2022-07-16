@@ -33,6 +33,9 @@ body{
     background-color: #000000;
 
 }
+.nav-link{
+    cursor: pointer;
+}
 .blur{
     backdrop-filter: blur(5px);
 

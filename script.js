@@ -20,3 +20,16 @@ function mostrarDatos () {
     
     
 }
+
+function validarPassword(){
+    texto = prompt("Para ver la página introduzca su contraseña");
+    while(texto!="eeta2021"){
+        alert("Password incorrecta");
+        location.reload();
+    }
+        alert("Password Correcta");
+        window.open("http://thetoxic47.github.io/Horarios", "Diseño Web");
+
+    
+  }
+
