@@ -55,6 +55,119 @@ header{
     user-select: none;
 }
 
+/*Password*/
+.top13{ 
+    opacity: 0;
+    border: 4px #0066cc;
+    border-radius: 400px;
+}
+.top14{
+    opacity: 1;
+    border: 4px #0066cc;
+    border-radius: 400px;
+}
+.input-container{
+    width: 280px;
+    position: relative;
+}
+.label{
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    transition: all 0.2s;
+    padding: 0 2px;
+    z-index: 1;
+    color: #B3B3B3;
+
+}
+.text-input{
+    padding: 0.5rem;
+    width: 100%;
+    height: 80%;
+    border: 10px 0px 0px 10px solid #2F2C45;
+    background: #272530;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.label::before{
+    content: "";
+    height: 5px;
+    background: #272530;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    width: 100%;
+    z-index: -1;
+}
+.text-input:focus{
+    border: 2px solid #7E4CCB;
+}
+.text-input:focus + .label, .filled{
+    top: -13px;
+    color: #7E4CCB;
+    font-size: 14px;
+}
+.text-input::placeholder{
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.text-input:focus::placeholder{
+    opacity: 1;
+}
+
+.botonh .btn{
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2a9d8f;
+    padding: 0.35rem;
+    width: 50%;
+    height: 100%;
+    border: 2px solid #2F2C45;
+    box-shadow: none;
+    border-radius: 0px 10px 10px 0px;
+    transition : 1094ms;
+    transform: translateY(0);
+    text-transform: lowercase;
+    }
+.botonh .btn:hover{
+    transition : 1094ms;
+    width: 50%;
+    height: 100%;
+    border: 2px solid #2F2C45;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    cursor: pointer;
+    
+}
+
+
+.botonhorarios .horarios{
+    width: 280px;
+    height: 50px;
+    position: absolute;
+    transition: all 0.8s;
+}
+
+.horarios::before{
+    height: 505px;
+    background: #2f00ff;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+/*Fin password*/
+
+
+
 .bordeup{
     font-family: kdam, cursive;
     padding-top: 100px;

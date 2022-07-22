@@ -21,15 +21,36 @@ function mostrarDatos () {
     
 }
 
-function validarPassword(){
-    texto = prompt("Para ver la página introduzca su contraseña");
-    while(texto!="eeta2021"){
-        alert("Password incorrecta");
-        location.reload();
+document.querySelectorAll(".text-input").forEach((Element)=>{
+    Element.addEventListener("blur", (event)=> {
+      if (event.target.value != ""){
+        event.target.nextElementSibling.classList.add("filled");
+      }
+      else{
+        event.target.nextElementSibling.classList.remove("filled");
+      }
+    });
+  });
+  
+  function obtenerValor(){
+    let inputValue = document.getElementById("domTextElement").value; 
+  
+    if (inputValue == "eeta2021"){
+      alert("Contraseña correcta.")
+      let horarios = window.open('', '_blank');
+      horarios.location.href = 'http://thetoxic47.github.io/Horarios';
     }
-        alert("Password Correcta");
-        window.open("http://thetoxic47.github.io/Horarios", "Diseño Web");
-
-    
+    else{
+    alert("Contraseña incorrecta.");
   }
+  
+  } 
+  
+  let myDiv = document.getElementById('dimensions12');
+            
+            myDiv.addEventListener("click", function(e) {
+              let mostrarPassword = document.getElementById("horarios1")
+              mostrarPassword.classList.replace("top13","top14")
+            });
+  
 
